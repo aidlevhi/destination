@@ -1,0 +1,35 @@
+@media all and (max-width: 1000px) {
+
+  .contents {
+    height: 1800px;
+  }
+  
+  .contentm {
+    padding-left: 150px;
+  }
+  .reason li {
+    line-height: 30px;
+  }
+  
+  .box1 {
+    background-position-x: -14px;
+  }
+
+  .contents img {
+    width: 100%;
+  }
+
+
+}
+
+@media all and (max-width: 670px) {
+  .box li {
+    flex:auto;
+    width: 100%;
+  } 
+
+
+
+
+}
+ 
