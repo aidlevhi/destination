@@ -1,3 +1,28 @@
+@media all and (max-width: 1024px) {
+	.contents {
+		height: 1000px;
+	}
+	
+	.contentm {
+		width: 100%;
+		padding-left: 5px;
+	}
+
+	.contents-item {
+		width: 400px; 
+		height: 400px;
+		margin: 10px;
+	}
+
+	.contents-item img {
+		width:400px 
+	}
+
+}
+	
+
+
+
 @media all and (max-width: 1000px) {
 
 	.contents {
@@ -20,9 +45,12 @@
 	.contents img {
 	  width: 100%;
 	}
+}
+
   
+
+
   
-  }
   
   @media all and (max-width: 670px) {
 	.box li {
@@ -30,19 +58,25 @@
 	  width: 100%;
 	} 
 
-	.box1 .box2 .box3 {
-		background-position-x: -14px;
+	.box {
+		background-position-x: -70px;
 		flex-direction: column;
 		width: 100%;
-		margin: 25px;
-	  }
+		margin: 20px;
+		padding-left: 5px;
+		height: 40px;
+		font-size: 10px;
+	}
 
-	.buntu {
-		flex-direction: column;
-		text-align: fixed;
-		padding-top: 120px;
-		margin: 10px;
-	  }
+	.box2  {
+		background-image: none;
+	}
+
+	.box3  {
+		background-image: none;
+	}
+
+
 
 
 	.nav ul {
@@ -57,10 +91,66 @@
 		font-size: 20px;
 	}
 
+	.box flex{
+		display:none
+		}
+
+	}
+
+
+	@media all and (max-width: 424px) {
+		section-title h2 {
+			font-size: 25px;
+		}
+
+
+	    .contentm {
+			height: fit-content;
+		}
+		.nav ul {
+			display: none;
+		}
 	
-  
+		.nav span {
+			display: block;
+			float: right;
+			padding-right: 30px;
+			padding-top: 30px;
+			font-size: 20px;
+		}
+	
+		.box flex{
+			display:none
+			}
+
+		.copy-container h2 {
+			font-size: 20px;
+			text-align: left;
+			margin-bottom: 2px;
+		  }
+		  
+		.copy-container span {
+			font-size: 30px;
+			text-align: left;
+			margin-bottom: 2px;
+			font-weight: bold;
+			
+		  }
+		  
+		  .copy-container p {
+			font-size: 20px;
+			margin-top: 2px;
+		  }
+
+		  .txt-contents {
+			font-size: 20px;
+		  }
 
 
-  
-  
-  }
+
+	}
+
+		
+
+		
+	
